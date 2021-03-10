@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDom from "react-dom";
-import App from "./compnents/App";
 
 ReactDom.render(
- <App />,
-  document.getElementById("root")
+<ul>
+  <li>Cars</li>
+  <li>Bikes</li>
+  <li>Trains</li>
+</ul>,
+document.getElementById("root")
 );
